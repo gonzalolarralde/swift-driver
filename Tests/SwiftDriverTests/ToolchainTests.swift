@@ -735,6 +735,7 @@ import CRT
     "wasm32-unknown-none-wasm",
     "armv6-none-none-eabi",
     "riscv32-none-none-eabi",
+    "xtensa-esp32s3-none-elf",
     "x86_64-unknown-none-elf",
   ].filter(probeFrontendForTarget)
 

@@ -1672,6 +1672,7 @@ import class TSCBasic.DiagnosticsEngine
     assertToolchain("powerpc64-ibm-aix", None.self)
     assertToolchain("powerpc-dunno-notsure", None.self)
     assertToolchain("arm-none-none-eabi", GenericUnixToolchain.self)
+    assertToolchain("xtensa-esp32s3-none-elf", GenericUnixToolchain.self)
     assertToolchain("arm-none-unknown-eabi", None.self)
     assertToolchain("arm-none-linux-musleabi", GenericUnixToolchain.self)
     assertToolchain("armv6hl-none-linux-gnueabi", GenericUnixToolchain.self)
